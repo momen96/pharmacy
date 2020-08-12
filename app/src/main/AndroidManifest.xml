@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.momen.pharmacy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/insta_pharm_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/insta_pharm_logo"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".changePassword"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".myAccount"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".signupActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".loginActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".FirstActivity"
+            android:screenOrientation="nosensor"
+            />
+        <activity android:name=".Orders"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".NotesLayout"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".splashScreen"
+            android:screenOrientation="nosensor">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
